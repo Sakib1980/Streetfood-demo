@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>খাবি না কেনো, খা! — Street Food Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="assets/logo.png" />
+</head>
+<body>
+  <header class="header">
+    <div class="brand">
+      <img src="assets/logo.png" alt="Logo" class="logo" />
+      <div>
+        <h1 id="site-title">খাবি না কেনো, খা!</h1>
+        <p id="site-sub">Dhaka's famous, hygienic & tasty street foods</p>
+      </div>
+    </div>
+    <div class="lang-switch">
+      <button id="bnBtn">বাংলা</button>
+      <button id="enBtn">EN</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero card">
+      <h2 id="hero-title">স্বাগতম!</h2>
+      <p id="hero-text">
+        এখানে সেলার ও কাস্টমার—দু’জনের জন্যই আলাদা সাইন-আপ আছে। লোকেশন পারমিশন চাইবে যাতে কাছাকাছি স্টল দেখা যায় (ডেমো)।
+      </p>
+      <div class="cta-row">
+        <a class="btn primary" href="seller.html" id="sellerBtn">সেলার সাইন-আপ</a>
+        <a class="btn" href="customer.html" id="customerBtn">কাস্টমার সাইন-আপ</a>
+        <a class="btn outline" href="login.html" id="loginBtn">লগইন</a>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h3 id="feature1-title">হাইজিন ফোকাস</h3>
+        <p id="feature1-text">শুধু পরিচ্ছন্ন ও মানসম্মত স্ট্রিট ফুড সেলারদের লিস্ট।</p>
+      </div>
+      <div class="card">
+        <h3 id="feature2-title">তাৎক্ষণিক অর্ডার</h3>
+        <p id="feature2-text">রিয়েল-টাইম লোকেশন দিয়ে কাছের দোকান থেকে অর্ডার।</p>
+      </div>
+      <div class="card">
+        <h3 id="feature3-title">সহজ পেমেন্ট</h3>
+        <p id="feature3-text">পেমেন্ট গেটওয়ে প্লেসহোল্ডার—ডেমো বোতাম নিচে।</p>
+      </div>
+    </section>
+
+    <section class="card pay-box">
+      <h3 id="pay-title">পেমেন্ট ডেমো</h3>
+      <p id="pay-text">এটি শুধু একটি প্লেসহোল্ডার।</p>
+      <button class="btn primary" id="payBtn">Pay (Demo)</button>
+      <p id="pay-status" class="muted"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>© <span id="year"></span> StreetFood Dhaka — Demo</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
