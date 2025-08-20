@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seller Sign Up — Street Food Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1 id="seller-title">সেলার সাইন-আপ</h1>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <form id="sellerForm">
+        <label for="name" id="seller-name-label">নাম</label>
+        <input type="text" id="name" name="name" placeholder="আপনার নাম দিন" required />
+
+        <label for="phone" id="seller-phone-label">ফোন নাম্বার</label>
+        <input type="tel" id="phone" name="phone" placeholder="01XXXXXXXXX" required />
+
+        <label for="location" id="seller-location-label">লোকেশন</label>
+        <input type="text" id="location" name="location" placeholder="Dhaka" required />
+
+        <button type="submit" class="btn primary" id="seller-submit">রেজিস্টার</button>
+      </form>
+      <p id="seller-status" class="muted"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="index.html" id="back-home">← হোমে ফিরে যান</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
