@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Customer Sign Up — Street Food Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1 id="customer-title">কাস্টমার সাইন-আপ</h1>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <form id="customerForm">
+        <label for="cname" id="customer-name-label">নাম</label>
+        <input type="text" id="cname" name="cname" placeholder="আপনার নাম দিন" required />
+
+        <label for="cphone" id="customer-phone-label">ফোন নাম্বার</label>
+        <input type="tel" id="cphone" name="cphone" placeholder="01XXXXXXXXX" required />
+
+        <label for="clocation" id="customer-location-label">লোকেশন</label>
+        <input type="text" id="clocation" name="clocation" placeholder="Dhaka" required />
+
+        <button type="submit" class="btn primary" id="customer-submit">রেজিস্টার</button>
+      </form>
+      <p id="customer-status" class="muted"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="index.html" id="back-home">← হোমে ফিরে যান</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
