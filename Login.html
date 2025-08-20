@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Login — Street Food Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <h1 id="login-title">লগইন</h1>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <form id="loginForm">
+        <label for="phone" id="login-phone-label">ফোন নাম্বার</label>
+        <input type="tel" id="phone" name="phone" placeholder="01XXXXXXXXX" required />
+
+        <label for="role" id="login-role-label">আপনার পরিচয়</label>
+        <select id="role" name="role" required>
+          <option value="seller">সেলার</option>
+          <option value="customer">কাস্টমার</option>
+        </select>
+
+        <button type="submit" class="btn primary" id="login-submit">লগইন</button>
+      </form>
+      <p id="login-status" class="muted"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="index.html" id="back-home">← হোমে ফিরে যান</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
